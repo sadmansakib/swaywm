@@ -1,0 +1,75 @@
+{
+    "layer": "top",
+    "height":25,
+    "modules-left": ["sway/workspaces", "sway/mode"],
+    "modules-center": ["sway/window"],
+    "modules-right": ["pulseaudio","memory","cpu","battery", "clock","tray"],
+    "sway/window": {
+        "max-length": 50
+    },
+
+    "sway/workspaces": {
+         "disable-scroll": true,
+         "disable-markup" : false,
+         "all-outputs": true,
+         "format": "  {icon}  ",
+         //"format":"{icon}",
+         "format-icons": {
+             "1": "",
+             "2": "",
+             "3": "",
+             "4": "",
+             "5": "",
+	     "6": "",
+             "focused": "",
+             "default": ""
+         }
+     },
+
+    "memory": {
+    "interval": 10,
+    "format": " {}%",
+    "max-length": 10
+    },
+
+    "pulseaudio": {
+	"icon-size": 21,
+        "format": "{icon} {volume}%",
+    	"format-bluetooth": "{volume}% {icon}",
+    	"format-muted": "",
+    	"format-icons": {
+        	"headphone": "",
+        	"hands-free": "",
+        	"headset": "",
+        	"phone": "",
+        	"portable": "",
+        	"car": "",
+        	"default": ["", ""]
+    	},
+    "scroll-step": 1,
+    "on-click": "pavucontrol"
+    },
+
+    "cpu": {
+	"icon-size":15,
+    	"interval": 1,
+    	"format": " {}%",
+    	"max-length": 10
+    },
+
+    "battery": {
+        "format": "{icon} {capacity}%",
+        "format-icons": ["", "", "", "", ""]
+    },
+
+    "clock": {
+    	"interval": 60,
+	"tooltip-format": "{:%Y-%m-%d | %H:%M}",
+   	"format": " {:%H:%M}",
+    	"max-length": 15
+    },
+    "tray": {
+        "icon-size": 20,
+        "spacing": 10
+    }, 
+}
