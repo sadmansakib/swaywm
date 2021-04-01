@@ -1,0 +1,48 @@
+* {
+	background-image: none;
+	opacity: 0.96;
+}
+
+window {
+	background-image: image(url("/home/sadman/.wallpapers/pexels-lisa-fotios.jpg"));
+}
+
+button {
+	background-color: #0f111c;
+    	border-width: 0px;
+    	border-radius: 0;
+    	background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: 25%;
+	color: #0f111c;
+}
+
+button:focus, button:active, button:hover {
+	background-color: #ff4151;
+    	outline-style: none;
+	color: #81a1c1;
+}
+
+#lock {
+    background-image: image(url("/usr/share/wlogout/icons/lock.png"), url("/usr/local/share/wlogout/icons/lock.png"));
+}
+
+#logout {
+    background-image: image(url("/usr/share/wlogout/icons/logout.png"), url("/usr/local/share/wlogout/icons/logout.png"));
+}
+
+#suspend {
+    background-image: image(url("/usr/share/wlogout/icons/suspend.png"), url("/usr/local/share/wlogout/icons/suspend.png"));
+}
+
+#hibernate {
+    background-image: image(url("/usr/share/wlogout/icons/hibernate.png"), url("/usr/local/share/wlogout/icons/hibernate.png"));
+}
+
+#shutdown {
+    background-image: image(url("/usr/share/wlogout/icons/shutdown.png"), url("/usr/local/share/wlogout/icons/shutdown.png"));
+}
+
+#reboot {
+    background-image: image(url("/usr/share/wlogout/icons/reboot.png"), url("/usr/local/share/wlogout/icons/reboot.png"));
+}
