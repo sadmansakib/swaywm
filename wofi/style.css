@@ -2,36 +2,39 @@ window {
     margin: 5px;
     border-radius: 10px;
     background-color: #0f111c;
-}
+    opacity:0.96;
+    }
 
 #input {
     color: #ffffff;
     margin: 5px;
-    border: 2px solid #ff4151;
-    background-color: #0f111c;
-}
+        border: 2px solid #ff4151;
+	    background-color: #0f111c;
+    }
 
 #outer-box {
     padding: 5px;
     margin: 10px
-}
+    }
 
 #text{
+    font-family: Dejavu Sans;
+    font-style: Book;
     color: #ffffff;
 }
 
 #text:selected {
-    color: #0f111c;
-}
+	    color: #0f111c;
+    }
 
 #inner-box {
-    padding-top: 5px;
+	        padding-top: 5px;
 }
   
 #img {
-    margin-right: 5px;
-}
+	    margin-right: 5px;
+    }
 
-#entry:selected {
-    background-color: #ff4151;
-}
+    #entry:selected {
+	        background-color: #ff4151;
+	}
