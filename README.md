@@ -9,4 +9,4 @@ Don't mind the icons couldn't figure out why they are too small.
 2. Waybar for topbar as replacement of polybar
 3. Wofi as application launcher as replacement of rofi
 
-![Home screenshot of homescreen](screenshot.png)
+![Home screenshot of homescreen](screenshot-home.png)
