@@ -220,5 +220,14 @@ focus_follows_mouse no
 gaps inner 10
 default_border none
 exec_always /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+exec autotiling
+exec mako
+
+# Assignment
+assign [app_id="Brave-browser"] 1
+assign [app_id="Alacritty"] 2
+assign [class="Code"] 3
+assign [app_id="discord" class="discord" title="Discord"] 4
+assign [app_id="pcmanfm"] 5
 
 include /etc/sway/config.d/*
