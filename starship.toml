@@ -9,5 +9,10 @@ success_symbol = "[➜](bold green)"     # The "success_symbol" segment is being
 [package]
 disabled = true
 
+[git_branch]
+symbol = " "
+truncation_length = 4
+truncation_symbol = ""
+
 [golang]
-format = "via [ $version](bold cyan) "
+format = "via [Go $version](bold cyan) "

@@ -21,7 +21,7 @@ font:
   normal:
     # Font family
     #
-    family: Jetbrains Mono
+    family: Source Code Pro
 
     style: Medium
 
@@ -29,7 +29,7 @@ font:
   bold:
     # Font family
     #
-    family: Jetbrains Mono
+    family: Source Code Pro
 
     style: Bold
 
@@ -37,7 +37,7 @@ font:
   italic:
     # Font family
     #
-    family: Jetbrains Mono
+    family: Source Code Pro
 
     style: Italic
 
@@ -45,7 +45,7 @@ font:
   bold_italic:
     # Font family
     #
-    family: Jetbrains Mono
+    family: Source Code Pro
 
     style: Bold Italic
 
